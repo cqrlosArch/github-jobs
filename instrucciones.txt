@@ -1,0 +1,17 @@
+Desafío: crear una búsqueda de empleo utilizando una API. Utilice bibliotecas de front-end como React o Vue. No mire la solución existente. Cumplir con las historias de usuario a continuación:
+
+Historia de usuario: puedo ver una lista de trabajos en una ciudad de forma predeterminada
+Historia de usuario: puedo buscar trabajos con una palabra clave determinada
+Historia de usuario: puedo buscar trabajos con un nombre de ciudad, código postal u otra ubicación
+Historia de usuario: puedo seleccionar una opción de al menos 4 opciones predefinidas
+Historia de usuario: solo puedo buscar un trabajo de tiempo completo
+Historia de usuario: puedo ver una lista de trabajos con su logotipo, nombre de la empresa, ubicación y hora de publicación.
+Historia de usuario: cuando selecciono un trabajo, puedo ver las descripciones de los trabajos y cómo presentar mi solicitud como el diseño dado.
+Historia de usuario: cuando estoy en la página de detalles del trabajo, puedo volver a la página de búsqueda
+Historia de usuario (opcional): puedo ver una lista de trabajos en la ciudad más cercana a mi ubicación de forma predeterminada
+Historia de usuario (opcional): puedo ver trabajos en diferentes páginas, 5 elementos en cada página
+Icono: https://google.github.io/material-design-icons/
+
+API: https://jobs.github.com/api
+
+Sugerencias: para desarrolladores de front-end, puede usar https://cors-anywhere.herokuapp.com/ para ayudar a acceder a datos de otros sitios web que normalmente están prohibidos por la política del mismo origen de los navegadores web.
