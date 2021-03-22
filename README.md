@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://vercel.com/cqrlosarch/github-jobs">
+    <a href="https://github-jobs-git-main-cqrlosarch.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/GpSTnMLTIEqN8JWnWFLJ">
       Solution
     </a>
     <span> | </span>
