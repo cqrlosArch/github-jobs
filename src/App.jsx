@@ -42,10 +42,9 @@ const GlobalStyled = createGlobalStyle`
   }
 
   .wrapper{
-    display:flex;
+    display:grid;
     min-height:95vh;
-    flex-direction:column;
-    justify-content:space-between;
+    grid-template-rows:100px auto 50px;
     width:90%;
     max-width:1440px;
     margin-left:auto;
