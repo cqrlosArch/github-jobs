@@ -46,10 +46,16 @@ const GlobalStyled = createGlobalStyle`
     min-height:95vh;
     flex-direction:column;
     justify-content:space-between;
+    width:90%;
     max-width:1440px;
     margin-left:auto;
     margin-right:auto;
     
+  }
+
+  .container-loader{
+    margin:4rem auto;
+   
   }
 `;
 

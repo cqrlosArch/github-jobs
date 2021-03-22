@@ -24,12 +24,14 @@ const Home = () => {
         <AppConsumer>
           {({ isLoading }) =>
             isLoading ? (
-              <Loader
+             <div className="container-loader">
+             <Loader
                 type="ThreeDots"
                 color="#1E86FF"
                 width={100}
                 height={100}
               />
+             </div>
             ) : (
               <ListJobs />
             )

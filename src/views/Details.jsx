@@ -6,6 +6,7 @@ import { getDetails } from '../utils/api';
 import styled from 'styled-components';
 
 const Section = styled.section`
+
   display: grid;
   grid-template-columns: 100%;
   @media (min-width: 760px) {
@@ -102,7 +103,7 @@ function Details() {
         <>
           <Apply>
             <Arrow>
-              <span class="material-icons" aria-label="back">
+              <span className="material-icons" aria-label="back">
                 keyboard_backspace
               </span>
               <Link to="/" id="back">
@@ -138,7 +139,7 @@ function Details() {
           </div>
         </>
       ) : (
-        <div>
+        <div className="container-loader">
           <Loader type="ThreeDots" color="#1E86FF" width={100} height={100} />
         </div>
       )}
