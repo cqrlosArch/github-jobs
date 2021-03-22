@@ -13,6 +13,7 @@ const JobStyled = styled.div`
   border-radius: 4px;
   margin-bottom: 1rem;
   height: 147px;
+  cursor:pointer;
   @media (min-width: 760px) {
     height: 130px;
     align-content: center;
